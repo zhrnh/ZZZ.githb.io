@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* 通用部分 */
+html {
+	height:100%;
+}
+body {
+    min-width: 1200px;
+	margin:0 auto;
+	padding:0;
+	color:#000;
+	font-size:14px;
+	font-family:'Microsoft YaHei',Arial,Helvetica,sans-serif,Verdana;
+	background-color:#fff;
+    background-image: url("../images/bg.jpg");
+    background-repeat:repeat;
+}
+h1,h2,h3,h4,h5,h6,ul,dl,ol,li,form,fieldset,table,td,dt,dd,p,img,div{
+	margin:0;
+	padding:0;
+	border:0;
+}
+img{max-width:100%; vertical-align: middle;}
+li{
+	list-style-type:none;
+}
+a{
+    text-decoration:none;
+	cursor:pointer;
+}
+a:link {
+	color:#000;
+}
+a:visited {
+	color:#000
+}
+a:hover,a:active,a:focus{
+	color:#F50;
+}
+.clear{clear:both}
+
+.main{
+    margin:0 auto;
+    width: 1200px;
+}
+
+.t{
+    font-size:30px;
+    font-weight: bold;
+    color:#181ACC
+}
+
+
+.left{
+    float:right;
+    width:25%;
+    min-width: 250px;
+    margin-top:5%;
+}
+.left .face{
+	margin: 0 0 5% 10%;
+    width:200px;
+	height: 200px;
+	overflow: hidden;
+    border:3px solid #FF0004;
+    border-radius: 200px;
+}
+.left .face img{
+	width:100%;
+}
+
+
+
+/**/
+
+.right{
+    float:left;
+    width:72%;
+    margin-top:5%;
+}
+
+
+.right .nav{
+	width:70%;
+	padding:0 2%;
+	height:45px;
+	line-height: 45px;
+	text-align: center;
+	font-size:16px;
+	font-weight: bold;
+	background-color:#FFF;
+	border-radius:4px;
+}
+.right .nav a{
+	margin:0 2.5%;
+}
+.right .nav .cur{
+	color:#F50;
+}
+
+
+
+
+.content{
+    overflow: hidden;
+    margin:2% 0;
+	padding:4% 5%;
+    line-height: 2;
+	background-color:rgba(255,255,255,1);
+    border-radius: 8px;
+}
+.content p{
+    text-indent: 28px;
+}
+.index .content{
+    text-align: center;
+}
+
+/*zp.html*/
+.zp .content{
+    padding:200px 30px;
+    font-size: 20px;
+}
+.zp .pic{
+	overflow:hidden;
+	padding-bottom: 2%;
+	background-color:#FFF;
+	border-radius:4px;
+}
+
+
+
+
+
+
+/**contact**/
+
+
+
+
+
+/*
+ms.html*/
+.ms-pic a{
+	display: block;
+    overflow: hidden;
+}
+.ms-pic a img{
+	width:100%;
+}
+
+
+
+
+
+
